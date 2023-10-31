@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gess My Number</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="play_box">
+            <div class="pla_img">
+                <img src="img/gess The Num.webp" alt="gess The number">
+            </div>
+            <button class="pla_btn">Play</button>
+        </div>
+
+        <div class="player_one hidden">
+            <h1 class="one_name name">Player 0ne</h1>
+            <p class="one_para note">0 - 9</p>
+            <input type="number" class="one_input input">
+            <button class="one_num submit">Selected</button>
+            <p class="one_error error"></p>
+        </div>
+
+        <div class="player_two hidden">
+            <h1 class="two_name name">Player Tw0</h1>
+            <p class="two_para note">0 - 9</p>
+            <input type="number" class="two_input input">
+            <button class="two_num submit">Selected</button>
+            <p class="two_error error"></p>
+        </div>
+
+        <div class="result_box hidden">
+            <div class="players">
+                <h2>Player 0ne</h2>
+                <p class="one_result">0</p>
+            </div>
+            <div class="players">
+                <h2>Player Tw0</h2>
+                <p class="two_result">0</p>
+            </div>
+            <div class="result">
+            </div>
+        </div>
+        <button class="bac_btn hidden">Play Again</button>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
